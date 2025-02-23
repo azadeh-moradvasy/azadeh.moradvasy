@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/output.css">
+  <link rel="stylesheet" href="../styles/index.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <title>Eteach</title>
+</head>
+
+<body>
+  <header class="container mx-auto px-5 pb-20 py-6 ">
+    <div class="flex justify-between items-center">
+
+      <a href="#">
+        <span class=" font-bold text-2xl capitalize">eteach.</span>
+      </a>
+
+      <nav class=" hidden  md:block">
+        <ul class="flex justify-between items-center gap-5 ">
+          <li><a href="#" class=" capitalize font-medium">courses</a></li>
+          <li><a href="#" class=" capitalize font-medium">teachers</a></li>
+          <li><a href="#" class=" capitalize font-medium">offers</a></li>
+          <li><a href="#" class=" capitalize font-medium">contact</a></li>
+        </ul>
+      </nav>
+
+      <div class=" gap-5 hidden md:flex ">
+        <button class=" border-2 border-violet-300 rounded-sm py-1 px-2">sign
+          in</button>
+        <button
+          class=" border-2 border-violet-300 rounded-sm py-1 px-2  text-white bg-gradient-to-tl from-pink-500 to-violet-600 ">free
+          trial</button>
+      </div>
+
+
+    </div>
+  </header>
+  <main>
+    <!-- ---------hero section---------------- -->
+    <section class="herSectiion ">
+      <div
+        class="container mx-auto px-5 md:px-2 flex flex-col md:flex-row items-center justify-center md:justify-between pb-20 py-6 gap-8 ">
+
+        <div class="flex flex-col gap-8 items-center  md:items-start basis-2/4">
+          <h1 class="font-bold text-4xl md:text-7xl text-center md:text-left w-[35rem]">
+            Develop your skills in a new and unique way </h1>
+          <p class=" text-sm text-gray-500 text-center md:text-left">Explore a transformative approach to
+            skilldevelopment on our online learning platform.Uncover a new of learning experiences and elevate in unique
+            ways.</p>
+          <div class="flex  gap-5 items-center ">
+            <button
+              class=" text-white capitalize rounded-lg bg-gradient-to-br from-violet-600 to-pink-500  py-2 px-3 font-bold">enroll
+              now</button>
+            <a href="#" class="flex items-center gap-2">
+              <i class="fa fa-play text-white px-3 py-3 rounded-full bg-gradient-to-br from-violet-600 to-pink-500"></i>
+              <span class=" capitalize text-gray-500 underline capitalize">what,s etech?</span></a>
+          </div>
+        </div>
+
+
+
+
+        <div class="flex flex-shrink-0 items-center justify-center px-5 md:px-10 basis-2/4 relative">
+          <!-- تصویر -->
+          <div class="w-full max-w-md md:max-w-lg lg:max-w-xl flex-shrink-0">
+            <img src="../asset/Etech-Image/Hero-Section/hero-image.png" alt="Etech_image" class="w-full h-auto">
+          </div>
+
+          <!-- دایره‌ی پس‌زمینه -->
+          <div
+            class="flex justify-center items-center absolute w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full border border-dashed border-violet-700 p-4 -z-10">
+            <div class="bg-gradient-to-br from-violet-600 to-pink-500 w-full h-full rounded-full"></div>
+          </div>
+
+          <!-- کارت اطلاعات -->
+          <div
+            class="flex flex-col justify-center items-center bg-gray-300 absolute top-5 left-5 px-3 py-2 md:px-5 shadow-lg rounded-md w-fit">
+            <div class="flex justify-around items-center">
+              <i class="fa fa-arrow-left p-3 rounded-full bg-violet-500 text-white text-sm md:text-base"></i>
+              <span class="text-violet-500 font-bold md:font-extrabold ml-3 md:ml-5">50+</span>
+            </div>
+            <h4 class="text-xs md:text-sm">Online Courses</h4>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <!-- ------------------Div duolingo------------------------- -->
+
+
+    <div
+      class=" w-full overflow-x-hidden  bg-gradient-to-br from-violet-600 to-pink-500 text-white gap-3 flex justify-around items-center p-10">
+      <div class="w-1/6 h-10 flex flex-shrink-0">
+        <img src="../asset/logo-image/duolingo.png" alt="" class="w-full h-full">
+      </div>
+      <div class="w-1/6 h-10 flex flex-shrink-0">
+        <img src="../asset/logo-image/ML_Horizontal_White_Black_BG+(1).png" alt="" class="w-full h-full">
+      </div>
+      <div class="w-1/6 h-10 flex flex-shrink-0">
+        <img src="../asset/logo-image/Microsoft.png" alt="" class="w-full h-full">
+      </div>
+      <div class="w-1/6 h-10 flex flex-shrink-0">
+        <img src="../asset/logo-image/codecov-by-sentry-logo.png" alt="" class="w-full h-full">
+      </div>
+      <div class="w-1/6 h-10 flex flex-shrink-0">
+        <img src="../asset/logo-image/logo(1).png" alt="" class="w-full h-full">
+      </div>
+
+    </div>
+
+
+    <!-- ----------------------search cources section--------------------------- -->
+
+    <section>
+      <div
+        class="container mx-auto flex flex-col items-center justify-center md:justify-between py-10 gap-10 md:gap-20 px-5">
+
+        <!-- عنوان -->
+        <h2 class="text-violet-950 text-3xl md:text-5xl font-bold text-center">Search Courses</h2>
+
+        <!-- جعبه جستجو -->
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-5 w-full">
+          <a href="#" class="text-gray-400 text-xl flex items-center gap-2">
+            <i class="fa fa-search"></i><span>Search for over 50+ courses</span>
+          </a>
+          <button
+            class="text-white font-bold px-6 py-3 md:px-10 md:py-4 bg-gradient-to-br from-violet-600 to-pink-500 rounded-md text-xl md:text-2xl">
+            Search
+          </button>
+        </div>
+
+        <!-- بخش محتوا -->
+        <div class="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 w-full">
+
+          <!-- تصاویر -->
+          <div class="grid grid-cols-2 gap-3 rounded-3xl border-4 border-dashed border-pink-500 p-3 md:w-2/4">
+            <div
+              class="bg-pink-400 rounded-ee-full rounded-ss-rounded  flex justify-center items-center p-2 overflow-hidden">
+              <img src="../asset/Etech-Image/Online-Learnimg/pic-1.png" alt="courses_image"
+                class="w-full h-full object-cover  ">
+            </div>
+            <div
+              class="bg-violet-500 rounded-es-full rounded-tr-3xl flex justify-center items-center p-2 overflow-hidden">
+              <img src="../asset/Etech-Image/Online-Learnimg/pic-2.png" alt="courses_image"
+                class="w-full h-full object-cover">
+            </div>
+            <div
+              class="bg-violet-500 rounded-se-full rounded-bl-3xl flex justify-center items-center p-2 overflow-hidden">
+              <img src="../asset/Etech-Image/Online-Learnimg/pic-3.png" alt="courses_image"
+                class="w-full h-full object-cover">
+            </div>
+            <div
+              class="bg-pink-400 rounded-ss-full rounded-ee-[7xl] rounded-br-3xl flex justify-center items-center p-2 overflow-hidden">
+              <img src="../asset/Etech-Image/Online-Learnimg/pic-4.png" alt="courses_image"
+                class="w-full h-full object-cover">
+            </div>
+          </div>
+
+          <!-- توضیحات -->
+          <div class="flex flex-col gap-5 md:w-2/4 px-2 text-center md:text-left">
+            <h2 class="text-3xl md:text-4xl text-violet-950 font-bold capitalize">
+              <span class="text-violet-500">Benefits</span> from our online learning
+            </h2>
+
+            <!-- آیتم‌های لیست -->
+            <div class="flex flex-col gap-5 text-lg">
+              <div class="flex gap-5 items-center">
+                <a href="#" class="bg-violet-500 text-white font-bold px-3 py-2 rounded-full">
+                  <i class="fa fa-book p-3"></i>
+                </a>
+                <div>
+                  <h3 class="text-xl text-violet-950 font-bold capitalize">Online Degrees</h3>
+                  <p class="text-gray-400 text-md">Access high-quality courses from experts worldwide.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-5 items-center">
+                <a href="#" class="bg-pink-500 text-white font-bold px-3 py-2 rounded-full">
+                  <i class="fa fa-book p-3"></i>
+                </a>
+                <div>
+                  <h3 class="text-xl text-violet-950 font-bold capitalize">Short Courses</h3>
+                  <p class="text-gray-400 text-md">Learn at your own pace with flexible short-term courses.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-5 items-center">
+                <a href="#" class="bg-violet-500 text-white font-bold px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-user p-3"></i>
+                </a>
+                <div>
+                  <h3 class="text-xl text-violet-950 font-bold capitalize">Training from Experts</h3>
+                  <p class="text-gray-400 text-md">Gain insights from industry leaders and professionals.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-5 items-center">
+                <a href="#" class="bg-pink-500 text-white font-bold px-3 py-2 rounded-full">
+                  <i class="fa fa-play p-3"></i>
+                </a>
+                <div>
+                  <h3 class="text-xl text-violet-950 font-bold capitalize">1.5K+ Video Courses</h3>
+                  <p class="text-gray-400 text-md">Explore a variety of courses with in-depth video content.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------Our papular Section---------------------------------- -->
+    <section class=" bg-gradient-to-br from-violet-600 to-pink-500">
+      <div class="container mx-auto flex flex-col gap-8 px-5 md:px-2 py-[80px]">
+        <div class=" flex flex-col gap-5  text-white   justify-center items-center ">
+          <h2 class="capitalize text-3xl font-semibold">our papular courses</h2>
+          <p class="text-base text-center w-full sm:w-2/5">
+            Discover most sought-after courses, carefully curated to meet the demands of todays learners.
+            dive engoing content crafted for success in every step of your educational journey.
+          </p>
+
+          <div class="cards flex flex-col md:flex-row justify-center items-center gap-10">
+
+            <div class=" card flex flex-col  gap-2 bg-white p-2 rounded-2xl ">
+
+              <div class=" image flex flex-shrink-0 w-full h-[150px] rounded-md ">
+                <img src="../asset/Etech-Image/Our-Popular/image-1.jfif" alt="papular_image" class="w-full h-full">
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span
+                  class="w-fit flex items-center gap-1 capitalize bg-violet-200 px-1 py-0.5 rounded-lg text-violet-600 text-xs "><i
+                    class="fa fa-circle"></i>web design</span>
+                <span class=" w-fit flex items-center gap-1 bg-violet-400 rounded-md text-white p-0.5"><i
+                    class="fa fa-star text-yellow-300"></i>4.9</span>
+              </div>
+
+              <h4 class=" capitalize text-lg font-semibold w-3/5 text-violet-950">web design & development</h4>
+
+              <div class="flex items-center gap-5 text-sm">
+
+                <span class="flex items-center gap-1  text-violet-950 text-xs font-semibold"><i
+                    class="fa fa-book text-violet-500 "></i>25 Classes</span>
+                <span class="flex items-center gap-1 text-violet-950 font-semibold"><i
+                    class="fa fa-user text-violet-500 "></i>185 Students</span>
+
+              </div>
+              <div class="w-full bg-gray-300 h-px"></div>
+
+              <div class="flex justify-between items-center ">
+                <span class="font-semibold text-violet-950 text-lg">
+                  $560.00
+                </span>
+
+                <div class=" flex items-center gap-4 ">
+                  <div class=" h-10 w-10 flex items-center justify-center flex flex-shrink-0 rounded-full">
+                    <img src="../asset/Etech-Image/Our-Popular/Te-1.jfif" alt="papular_image"
+                      class="w-full h-full rounded-full ">
+
+                  </div>
+                  <span class=" text-violet-500 capitalize">j.morgan</span>
+                </div>
+              </div>
+            </div> <!--   card -->
+
+            <div class=" card flex flex-col  gap-2 bg-white p-2 rounded-2xl ">
+
+              <div class=" image flex flex-shrink-0 w-full h-[150px] rounded-md ">
+                <img src="../asset/Etech-Image/Our-Popular/image-2.jfif" alt="papular_image" class="w-full h-full">
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span
+                  class="w-fit flex items-center gap-1 capitalize bg-violet-200 px-1 py-0.5 rounded-lg text-violet-600 text-xs "><i
+                    class="fa fa-circle"></i>UI/UX Design</span>
+                <span class=" w-fit flex items-center gap-1 bg-violet-400 rounded-md text-white p-0.5"><i
+                    class="fa fa-star text-yellow-300"></i>5.0</span>
+              </div>
+
+              <h4 class=" capitalize text-lg font-semibold w-3/5 text-violet-950">wireframing & prototyping</h4>
+
+              <div class="flex items-center gap-5 text-sm">
+
+                <span class="flex items-center gap-1  text-violet-950 text-xs font-semibold"><i
+                    class="fa fa-book text-violet-500"></i>1 Classes</span>
+                <span class="flex items-center gap-1 text-violet-950 font-semibold"><i
+                    class="fa fa-user text-violet-500 "></i>400 Students</span>
+
+              </div>
+              <div class="w-full bg-gray-300 h-px"></div>
+
+              <div class="flex justify-between items-center ">
+                <span class="font-semibold text-violet-950 text-lg">
+                  $160.00
+                </span>
+
+                <div class=" flex items-center gap-4 ">
+                  <div class=" h-10 w-10 flex items-center justify-center flex flex-shrink-0 rounded-full">
+                    <img src="../asset/Etech-Image/Our-Popular/Te-2.jfif" alt="papular_image"
+                      class="w-full h-full rounded-full ">
+
+                  </div>
+                  <span class=" text-violet-500 capitalize">Jordan Re</span>
+                </div>
+              </div>
+            </div> <!--   card -->
+
+
+            <div class=" card flex flex-col  gap-2 bg-white p-2 rounded-2xl ">
+
+              <div class=" image flex flex-shrink-0 w-full h-[150px] rounded-md ">
+                <img src="../asset/Etech-Image/Our-Popular/image-3.jfif" alt="papular_image" class="w-full h-full">
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span
+                  class="w-fit flex items-center gap-1 capitalize bg-violet-200 px-1 py-0.5 rounded-lg text-violet-600 text-xs "><i
+                    class="fa fa-circle"></i>Data Science</span>
+                <span class=" w-fit flex items-center gap-1 bg-violet-400 rounded-md text-white p-0.5"><i
+                    class="fa fa-star text-yellow-300"></i>4.9</span>
+              </div>
+
+              <h4 class=" capitalize text-lg font-semibold w-3/5 text-violet-950">python for data science</h4>
+
+              <div class="flex items-center gap-5 text-sm">
+
+                <span class="flex items-center gap-1  text-violet-950 text-xs font-semibold"><i
+                    class="fa fa-book text-violet-500"></i>18 Classes</span>
+                <span class="flex items-center gap-1 text-violet-950 font-semibold"><i
+                    class="fa fa-user text-violet-500 "></i>160 Students</span>
+
+              </div>
+              <div class="w-full bg-gray-300 h-px"></div>
+
+              <div class="flex justify-between items-center ">
+                <span class="font-semibold text-violet-950 text-lg">
+                  $432.00
+                </span>
+
+                <div class=" flex items-center gap-4 ">
+                  <div class=" h-10 w-10 flex items-center justify-center flex flex-shrink-0 rounded-full">
+                    <img src="../asset/Etech-Image/Our-Popular/Te-3.jfif" alt="papular_image"
+                      class="w-full h-full rounded-full ">
+
+                  </div>
+                  <span class=" text-violet-500 capitalize">Alex Taylor</span>
+                </div>
+              </div>
+            </div> <!--   card -->
+
+
+
+          </div> <!--   cards -->
+        </div> <!--   Section -->
+
+      </div>
+    </section>
+
+    <!-- ----------------------------section teacher------------------------- -->
+    <section>
+      <div
+        class="container mx-auto px-5 md:px-2 flex flex-col md:flex-row justify-center md:justify-between items-center py-10 h-full gap-8  ">
+        <div class="basis-2/4 flex flex-col gap-8">
+          <h2 class="text-3xl md:text-5xl text-violet-950 capitalize text-left ">if you are a certified teacher then
+            <span class=" text-gradient-to-br from-violet-600 to-pink-500">become an instructor</span>
+          </h2>
+          <p class=" text-gray-600 text-sm md:text-lg text-left  ">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Tenetur eos nostrum odio, voluptas assumenda nesciunt iure, nam minima consequatur, in inventore
+            repudiandae ratione vel corporis! Adipisci minus eos nobis fugit!</p>
+          <h2 class="text-3xl md:text-5xl text-violet-950 capitalize text-left ">enjoy many perks</h2>
+          <div class=" ">
+            <ul class=" flex flex-col flex-wrap  flex-wrap max-h-[120px] w-full  ">
+              <li><a href="#" class=" text-violet-950 capitalize text-sm md:text-lg text-left font-bold"><i
+                    class="fa fa-circle text-violet-500 mr-2"></i>global impact</a></li>
+              <li><a href="#" class=" text-violet-950 capitalize text-sm md:text-lg text-left font-bold"><i
+                    class="fa fa-circle text-violet-500 mr-2"></i>flexible schedule</a></li>
+              <li><a href="#" class=" text-violet-950 capitalize text-sm md:text-lg text-left font-bold"><i
+                    class="fa fa-circle text-violet-500 mr-2"></i>innovative teaching tools</a></li>
+              <li><a href="#" class=" text-violet-950 capitalize text-sm md:text-lg text-left font-bold"><i
+                    class="fa fa-circle text-violet-500 mr-2"></i>innovative teaching tools</a></li>
+              <li><a href="#" class=" text-violet-950 capitalize text-sm md:text-lg text-left font-bold"><i
+                    class="fa fa-circle text-violet-500 mr-2"></i>innovative teaching tools</a></li>
+              <li><a href="#" class=" text-violet-950 capitalize text-sm md:text-lg text-left font-bold"><i
+                    class="fa fa-circle text-violet-500 mr-2"></i>innovative teaching tools</a></li>
+              <li><a href="#" class=" text-violet-950 capitalize text-sm md:text-lg text-left font-bold"><i
+                    class="fa fa-circle text-violet-500 mr-2"></i>innovative teaching tools</a></li>
+              <li><a href="#" class=" text-violet-950 capitalize text-sm md:text-lg text-left font-bold"><i
+                    class="fa fa-circle text-violet-500 mr-2"></i>innovative teaching tools</a></li>
+
+
+            </ul>
+
+          </div>
+          <button
+            class="text-white bg-gradient-to-br from-violet-600 to-pink-500 font-bold text-center rounded-md px-2 py-3 capitalize w-2/4 text-lg md:text-2xl">become
+            an instructor</button>
+
+        </div>
+
+        <div class="flex flex-shrink-0 items-center justify-center px-5 md:px-10 basis-2/4 relative">
+          <div class=" w-full  md:max-w-lg lg:max-w-xl flex-shrink-0  ">
+            <img src="../asset/Etech-Image/IMG_20250212_221655_883.png" alt="Teacher_image" class="w-full h-auto">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------section students testimiosion--------------- -->
+    <section class=" bg-gradient-to-br from-violet-600 to-pink-500">
+      <div class="container mx-auto flex flex-col gap-8 px-5 md:px-2 py-[80px]">
+        <div class=" flex flex-col gap-5  text-white   justify-center items-center ">
+
+          <h2 class="text-white capitalize text-3xl md:text-5xl font-bold">student s testimonials</h2>
+          <p class="text-white capitalize text-sm md:text-lg w-1/3 text-center">Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Ducimus quo assumenda eum officiis fugit quibusdam porro perferendis natus possimus
+            laborum.
+          </p>
+
+          <div class="cards flex flex-col md:flex-row justify-around items-center gap-20 p-20">
+
+
+            <div class="card bg-white rounded-lg flex flex-col p-10 justify-around items-start basis-1/3">
+
+              <div class="flex gap-5 justify-around  items-center text-left">
+
+                <div class=" rounded-full  h-auto overflow-hidden flex-shrink-0 w-20 border border-violet-700 ">
+                  <img src="../asset/Etech-Image/Student/S-5.jfif" alt="papular_image" class="w-full h-full   ">
+                </div>
+
+                <div>
+                  <h3 class=" text-violet-800 text-lg md:text-xl font-bold capitalize">alexa radriguez</h3>
+                  <p class=" text-gray-500 capitalize text-sm">web developer</p>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+
+                </div>
+
+              </div>
+
+              <p class=" text-gray-500 text-sm md:text-lg ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Iusto, tempore quae. Omnis, eaque explicabo. Minima distinctio cumque aspernatur voluptatibus ipsam.</p>
+            </div>
+
+            <div class="card bg-white rounded-lg flex flex-col p-10 justify-around items-start basis-1/3">
+
+              <div class="flex gap-5 justify-around  items-center text-left">
+
+                <div class=" rounded-full  h-auto overflow-hidden flex-shrink-0 w-20 border border-violet-700 ">
+                  <img src="../asset/Etech-Image/Student/S-2.jfif" alt="papular_image" class="w-full h-full   ">
+                </div>
+
+                <div>
+                  <h3 class=" text-violet-800 text-lg md:text-xl font-bold capitalize">emily chen</h3>
+                  <p class=" text-gray-500 capitalize text-sm">web developer</p>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+
+                </div>
+
+              </div>
+
+              <p class=" text-gray-500 text-sm md:text-lg ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Iusto, tempore quae. Omnis, eaque explicabo. Minima distinctio cumque aspernatur voluptatibus ipsam.</p>
+            </div>
+
+
+            <div class="card bg-white rounded-lg flex flex-col p-10 justify-around items-start basis-1/3">
+
+              <div class="flex gap-5 justify-around  items-center text-left">
+
+                <div class=" rounded-full  h-auto overflow-hidden flex-shrink-0 w-20 border border-violet-700 ">
+                  <img src="../asset/Etech-Image/Student/S-1.jfif" alt="papular_image" class="w-full h-full   ">
+                </div>
+
+                <div>
+                  <h3 class=" text-violet-800 text-lg md:text-xl font-bold capitalize">james jahnson</h3>
+                  <p class=" text-gray-500 capitalize text-sm">web developer</p>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+                  <i class="fa fa-star text-yellow-500 text-sm"></i>
+
+                </div>
+
+              </div>
+
+              <p class=" text-gray-500 text-sm md:text-lg ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Iusto, tempore quae. Omnis, eaque explicabo. Minima distinctio cumque aspernatur voluptatibus ipsam.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------subscribe-------------------------- -->
+    <section class="bg-gradient-to-br from-violet-600 to-pink-500">
+      <div
+        class="w-full  p-[100px] rounded-ss-[150px] rounded-ee-[150px] bg-white flex flex-col justify-center items-center">
+        <div
+          class="flex flex-col justify-center items-center gap-5 w-3/6 bg-gradient-to-br from-violet-600 to-pink-500 rounded-3xl text-white py-10">
+          <h2 class=" capitalize font-bold text-2xl md:text-3xl">get in touch!</h2>
+          <p class="text-center capitalize text-xs md:text-lg w-2/4">
+            subscribe us to get in touch and to enjoy discounts promos and much more!
+          </p>
+          <div class="form flex justify-between items-center gap-10">
+            <input type="email" name="email"
+              class=" text-left p-4 text-xs md:text-lg text-gray-400 font-semibold rounded-2xl outline-none w-4/6"
+              placeholder="Enter your email...">
+            <button
+              class="text-violet-600 px-5 py-4 w-fit font-bold text-xs md:text-xl bg-white rounded-2xl text-center w-2/4">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <!-- ------------------------------------------------------------------------footer---------------------------------- -->
+
+  <footer class=" h-screen bg-gradient-to-br from-pink-500 to-violet-700">
+
+    <div class="flex justify-around gap-11  items-center text-white px-5 py-20">
+      <div class="flex flex-col gap-5 basis-1/6 items-baseline text-left">
+        <h3 class="font-bold text-lg md:text-2xl">Eteach.</h3>
+        <p class="w-2/4 text-xs md:text-lg ">
+          Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <div class="flex items-center gap-5">
+          <i class="fa fa-user rounded-full text-violet-600 bg-white text-center px-3 py-3  "></i>
+          <i class="fa fa-search rounded-full text-violet-600 bg-white text-center px-3 py-3 "></i>
+          <i class="fa fa-search rounded-full text-violet-600 bg-white text-center px-3 py-3 "></i>
+
+        </div>
+
+      </div>
+      <div class="flex flex-col gap-5 basis-1/6 items-start text-left">
+        <h3 class="font-bold text-lg md:text-2xl py-2">Company</h3>
+        <ul class=" capitalize flex flex-col justify-around font-bold text-xs md:text-lg ">
+          <i><a href="#">about us</a></i>
+          <i><a href="#">services</a></i>
+          <i><a href="#">community</a></i>
+          <i><a href="#">tesimonials</a></i>
+
+        </ul>
+
+      </div>
+
+      <div class="flex flex-col gap-5 basis-1/6 items-start text-left">
+        <h3 class="font-bold text-lg md:text-2xl py-2">Support</h3>
+        <ul class=" capitalize flex flex-col justify-around font-bold text-xs md:text-lg ">
+          <i><a href="#">help center</a></i>
+          <i><a href="#">tweet @ us</a></i>
+          <i><a href="#">webinars</a></i>
+          <i><a href="#">feedback</a></i>
+
+        </ul>
+
+      </div>
+
+
+      <div class="flex flex-col gap-5 basis-1/6 items-start text-left">
+        <h3 class="font-bold text-lg md:text-2xl py-2">Links</h3>
+        <ul class=" capitalize flex flex-col justify-around font-bold text-xs md:text-lg ">
+          <i><a href="#">courses</a></i>
+          <i><a href="#">become teacer</a></i>
+          <i><a href="#">services</a></i>
+          <i><a href="#">all in one</a></i>
+
+        </ul>
+
+      </div>
+
+
+      <div class="flex flex-col gap-5 basis-1/6 items-start text-left">
+        <h3 class="font-bold text-lg md:text-2xl py-2">Company</h3>
+        <ul class=" capitalize flex flex-col justify-around font-bold text-xs md:text-lg ">
+          <i><a href="#">about us</a></i>
+          <i><a href="#">services</a></i>
+          <i><a href="#">community</a></i>
+          <i><a href="#">tesimonials</a></i>
+
+        </ul>
+
+      </div>
+
+
+      <div class="flex flex-col gap-5 basis-1/6 items-start text-left">
+        <h3 class="font-bold text-lg md:text-2xl py-2">Contact Us</h3>
+        <p class="w-3/4 text-xs md:text-lg ">
+          +1(555)123-4567
+        </p>
+        <p class="w-3/4 text-xs md:text-lg ">
+          etechinfo@gmail.com
+        </p>
+      </div>
+
+
+
+
+
+
+
+    </div>
+    <div class="h-1  bg-gradient-to-r from-gray-50 to-gray-500 to-gray-50 "></div>
+    <p class="text-white text-center text-xs md:text-xl font-semibold py-10">Copyright 2023 Etech.All rights reserved
+    </p>
+  </footer>
+</body>
+
+</html>
